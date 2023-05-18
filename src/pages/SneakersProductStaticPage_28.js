@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+
 
 function SneakersProductStaticPage_28() {
   return (
@@ -85,4 +84,4 @@ function SneakersProductStaticPage_28() {
   );
 }
 
-export default App;
+export default SneakersProductStaticPage_28;
