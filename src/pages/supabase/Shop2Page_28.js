@@ -29,9 +29,9 @@ const Shop2Page_28 = () => {
       <h1 className="title">All Products -- Supabase shop2</h1>
       <div className="items">
         {products.map( (product) => {
-          const {name, price , local_url} = product;
+          const {id, name, price , local_url} = product;
           return (
-            <div className="collection-item">
+            <div className="collection-item" key={id}>
             <img className="image" src={local_url} />
             <div className="collection-footer">
               <span className="name">{name}</span>
